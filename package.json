@@ -7,11 +7,13 @@
     "dev": "slidev --open",
     "export": "slidev export",
     "deploygithub": "slidev build --base /correctexamtutorial/ --download && rm -rf docs && mv dist docs && git add docs/** && git commit . -m 'update' && git push"
-
   },
   "dependencies": {
     "@slidev/cli": "^0.43.15",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.40.1"
   }
 }
