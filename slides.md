@@ -63,8 +63,10 @@ INRIA DiverSE team leader with Benoit Combemale, deputy director of electronic a
 
 ---
 layout: default
+hideInToc: true
 ---
 
+## Déroulé de la présentation
 
 <Toc />
 
@@ -77,7 +79,7 @@ layout: default
 
 - Faire en sorte que les étudiants consultent davantage les copies corrigées pour apprendre de leurs erreurs
 - Corriger de manière plus “juste”
-  - ne vue statistique des résultats
+  - une vue statistique des résultats
   - correction anonyme, aléatoire…
   - capacité à modifier le barème à la volée
 
@@ -367,7 +369,7 @@ hideInToc: true
 
 - Pas mal d’email en direct ~200 emails
 
-- Mise en conformité pour le RGPD, la Propriété intellectuelle des étudiants, … (discussion avec les juristes de l’Université)
+- Mise en conformité pour le RGPD, la propriété intellectuelle des étudiants, … (discussion avec les juristes de l’Université)
 
 Mise en place d’une mailing liste, d’un comité  opérationnel, …
 
@@ -387,14 +389,14 @@ layout: default
 
 - Formation des Ingénieurs pédagogiques à l’Université de Rennes
 - Déploiement de la version 1.1 sur une infrastructure pilotée par la DSI à l’Université de Rennes
-- Bêta-tests avec d’autres utilisateurs curieux/bienveillant
+- Bêta-tests avec d’autres utilisateurs curieux/bienveillants
 - Analyse accessibilité
 - V1.2 Un certain nombre de tâches identifiées 
   [github V1.2](https://github.com/correctexam/corrigeExamFront/issues?q=is%3Aopen+is%3Aissue+milestone%3AV1.2)
 - V1.3 
   [github V1.3](https://github.com/correctexam/corrigeExamFront/issues?q=is%3Aopen+is%3Aissue+milestone%3AV1.3)
 - Intégration du support à la correction de notebook Jupyter
-- Intégration Moodle
+- Intégration Moodle (un connecteur LTI ?)
 
 
 ---
