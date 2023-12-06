@@ -1,0 +1,17 @@
+{
+  "name": "correctexamtutorial",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "deploygithub": "slidev build --base /correctexamtutorial/ --download && rm -rf docs && mv dist docs && git add docs/** && git commit . -m 'update' && git push"
+
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.43.15",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
+  }
+}
